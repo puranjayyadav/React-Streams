@@ -25,8 +25,8 @@ class StreamCreate extends React.Component
         ) 
     }
 
-    onSubmit(formValues){
-        console.log(formValues);
+    onSubmit=(formValues)=>{
+        this.props.createStream(formValues);
     }
     render(){
  return <form className="ui form error" onSubmit={this.props.handleSubmit(this.onSubmit)} ><Field name="title" component={this.renderInput} label="Enter Title"/>

@@ -14,6 +14,7 @@ export const signOut =()=>{
     };
 };
 
+//Going to be called with all the value that we submitted in the form along with arguements
 export const createStream =formValues => async dispatch =>{
     stream.post('/streams',formValues);
 };

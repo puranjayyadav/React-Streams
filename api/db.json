@@ -1,4 +1,9 @@
 {
-    "streams":[]
-    
+  "streams": [
+    {
+      "title": "helloh",
+      "description": "eeyyyyyyyy",
+      "id": 1
+    }
+  ]
 }
